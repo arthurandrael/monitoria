@@ -7,6 +7,69 @@ body {
 * {margin: 0; padding: 0; box-sizing: border-box;}
 
 body {
-  background: url('imgs/quarto.jpeg') no-repeat center bottom;
-  background-size: cover;
+  background: #0A0A0D;
+}
+
+.quarto {
+  width: 100vw;
+  height: 100vh;
+}
+.quarto img#quarto {
+  width: 100%; height: 100%;
+}
+#monitorIcon {
+  width: 40%;
+  height: 8%;
+  z-index: 2;
+  position: absolute;
+  left: 30%;
+  bottom: 0%;
+}
+
+
+
+.option {
+  color: floralwhite;
+  text-align: center;
+  position: absolute;
+  background: #29292954;
+  font-size: 1.1rem;
+  padding: 2.25rem 0 0;
+  border: 2px solid darkgrey;
+  width: 6rem;
+  height: 6rem;
+}
+
+#left {
+  top: 30%;
+  left: 1%;
+}
+#right {
+  top: 30%;
+  right: 1%;
+}
+#bed {
+  bottom: 2%;
+  right: 18%;
+  width: 4.5rem;
+  height: 4.5rem;
+  font-size: 1rem;
+  padding: 1.5rem 0 0;
+}
+#wardrobe {
+  top: 20%;
+  left: 50%;
+}
+
+
+
+#gif {
+  position: absolute;
+  z-index: 1;
+  left: 10%;
+  bottom: 0;
+  width: 80%;
+  height: 100%;
+  border-radius: 1rem;
+  display: none;
 }
