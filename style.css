@@ -73,3 +73,29 @@ body {
   border-radius: 1rem;
   display: none;
 }
+
+
+
+.options2 {display: none;}
+.option2 {
+  color: darkgrey;
+  border: 1.5px solid darkgray;
+  font-size: 1.5rem;
+  text-align: center;
+  position: absolute;
+  border-radius: .5rem;
+}
+#lanterna {
+  width: 9rem;
+  height: 11rem;
+  bottom: 1%;
+  left: 1%;
+  padding-top: 4.5rem;
+}
+#back {
+  width: 22rem;
+  height: 5rem;
+  right: 35%;
+  bottom: 1%;
+  padding-top: 1.5rem;
+}
