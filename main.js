@@ -127,6 +127,7 @@ function Ligar3() {
     let audio = new Audio(audioName)
     audio.loop = 'true'
     audio.play()
+    
   }
   playSound('audio/freddies.mp3')
   
@@ -150,7 +151,7 @@ function Desligar4() {
 }
 
 
-/*--------------------------------------*/
+/*---------------------------------------*/
 
 
 
