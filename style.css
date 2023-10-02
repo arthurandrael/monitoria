@@ -85,7 +85,7 @@ body {
   position: absolute;
   border-radius: .5rem;
 }
-#lanterna {
+.lanterna, #lanterna1, #lanterna2, #lanterna3, #lanterna4 {
   width: 9rem;
   height: 11rem;
   bottom: 1%;
@@ -93,9 +93,11 @@ body {
   padding-top: 4.5rem;
 }
 #back {
-  width: 22rem;
-  height: 5rem;
+  width: 22.5rem;
+  height: 3.7rem;
   right: 35%;
   bottom: 1%;
-  padding-top: 1.5rem;
+  padding-top: 1rem;
 }
+
+/*#lanterna1, #lanterna2, #lanterna3, #lanterna4*/
